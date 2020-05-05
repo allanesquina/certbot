@@ -87,6 +87,7 @@ class _DigitalOceanClient(object):
         try:
             result = domain.create_new_domain_record(
                 type='TXT',
+                ttl=30,
                 name=self._compute_record_name(domain, record_name),
                 data=record_content)
 
