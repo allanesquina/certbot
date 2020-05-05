@@ -1,1 +1,0 @@
-recursive-include certbot_integration_tests/assets *

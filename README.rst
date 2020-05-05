@@ -1,1 +1,1 @@
-certbot/README.rst
+DigitalOcean DNS Authenticator plugin for Certbot
